@@ -23,10 +23,11 @@
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
-    height: 753px;
+    height: 100vh;
     background-color: #6a6a5d;
+    gap: 20px;
     
 }
 .personal {
@@ -40,6 +41,7 @@
     height: 30px;
     padding: 10px;
     font-size: 25px;
+    border-radius: 10px;
 }
 
 
@@ -50,11 +52,103 @@ p {
     margin: 5px 5px 5px 5px;
     padding: 10px 10px 10px 10px;
     text-align: justify;
+    line-height: 1.5;
+}
+.columna {
+    width: 34%;
+    height: 100%;
+    background-color: #f5ebe0;
+    height: 100%;
+}
+.columna:last-child{
+    border-left: 2px solid #32231f;
+    @media (max-width: 768px) {
+        border-left: none;
+        border-top: 2px solid #32231f;
+    }
 }
 .columna1 {
+
     width: 33%;
     display: flex;
     flex-direction: column;
-    height: 753px;
+    height: 100%;
+    background-color: #fefcf3;
+}
+.columna2 {
+    width: 33%;
+    height: 100%;
     background-color: #f5ebe0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+} 
+.sub {
+    font-size: 22px;
+    color: #32231f;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d6c8c2;
+}
+
+.fechas {
+    font-size: x-small;
+    color: #555;
+    margin-left: 10px;
+    gap: -5px;
+}
+
+.info {
+    font-size: 20px;
+    color: #32231f;
+    margin: 10px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    line-height: 1;
+}
+.info2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #32231f;
+    margin: 10px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: #32231f;
+    
+}
+button{
+    background-color: #d6c8c2;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.columna3{
+    width: 34%;
+    height: 100%;
+    background-color: #fefcf3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.video {
+    width: 80%;
+    max-width: 320px;
+    display: block;
+    margin: 0 auto 18px auto;
+    border: 3px solid #fff;
+    border-radius: 10px;
 }
