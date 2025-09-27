@@ -33,10 +33,7 @@ body{
     gap: 5px;
     background-color: var(--rosa-empolvado);
     border-radius: 8px;
-    margin top: -10px;
-    padding: 10px;
     font-size: 20px;
-
 }
 .nombre {
     margin-top: 10px;
