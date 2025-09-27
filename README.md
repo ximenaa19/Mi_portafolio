@@ -7,6 +7,10 @@ El objetivo de este proyecto es practicar mis conocimientos en diseño web y cre
 
 ---
 
+**Demo en vivo**: [Ver portafolio](https://mi-portafolio-karen.netlify.app)
+
+---
+
 ## Contenido
 - Información personal
 - Información de contacto
